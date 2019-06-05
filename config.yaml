@@ -1,0 +1,7 @@
+kind: Cluster
+apiVersion: kind.sigs.k8s.io/v1alpha3
+name: regular-cluster
+nodes:
+  - role: control-plane
+  - role: worker
+  - role: worker
